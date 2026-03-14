@@ -1,0 +1,197 @@
+/* Footer */
+footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* General improvements */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header, section {
+    padding: 40px 20px;
+}
+
+header {
+    background-color: #f7c1d1;
+    text-align: center;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #e91e63;
+}
+
+button {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d81b60;
+}
+@media (max-width: 768px) {
+    .service-card {
+        display: block;
+        width: 90%;
+        margin: 20px auto;
+    }
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+    nav a {
+        margin: 10px 0;
+    }
+}
+/* Body and general font */
+body {
+    background-color: #ffe6f0; /* light pink background */
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffc0cb; /* bright pink */
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 15px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background-color: #ff3399;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Services Cards */
+.service-card {
+    background-color: #fff0f5; /* soft pink box */
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+.service-card img {
+    width: 100%;
+    max-width: 200px;
+    border-radius: 10px;
+}
+.service-card h3 {
+    color: #ff3399;
+    margin: 15px 0 10px;
+}
+.service-card p {
+    color: #555;
+    font-size: 14px;
+}
+body {
+    background-color: #ffe6f0; /* light pink background */
+    color: #333;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #ffc0cb;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+    border-radius: 15px;
+    margin: 20px;
+}
+.hero h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.hero p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.hero .btn {
+    background-color: #ff3399;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* Services Cards */
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+.service-card {
+    background-color: #fff0f5;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 220px;
+}
+.service-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+.service-card h3 {
+    color: #ff3399;
+    margin: 15px 0 10px;
+}
+.service-card p {
+    color: #555;
+    font-size: 14px;
+}
+
+/* Button Hover */
+.hero .btn:hover {
+    background-color: #ff66aa;
+}
+.service-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transition: all 0.3s ease;
+}
+
+.hero h1 {
+    animation: fadeIn 2s ease-in-out;
+}
+@keyframes fadeIn {
+    0% { opacity: 0; transform: translateY(-20px);}
+    100% { opacity: 1; transform: translateY(0);}
+}
